@@ -36,7 +36,7 @@ public class ForgotPasswordController {
 
     @Autowired
     public ForgotPasswordController(UserService userService, MessageSource messageSource,
-                                    PasswordResetTokenService passwordResetTokenService, EmailService emailService){
+                                    PasswordResetTokenService passwordResetTokenService, EmailService emailService) {
         this.userService = userService;
         this.messageSource = messageSource;
         this.passwordResetTokenService = passwordResetTokenService;
@@ -44,7 +44,7 @@ public class ForgotPasswordController {
     }
 
     @GetMapping
-    public String viewPage(){
+    public String viewPage() {
         return "forgot-password";
     }
 
@@ -86,7 +86,9 @@ public class ForgotPasswordController {
         String url = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort();
         mailModel.put("resetUrl", url + "/reset-password?token=" + token.getToken());
         mail.setModel(mailModel);
-
+        /* send email using emailService
+        if email sent successfully redirect with flash attributes
+         */
         emailService.send(mail);
         attributes.addFlashAttribute("success", messageSource.getMessage("PASSWORD_RESET_TOKEN_SENT", new Object[]{},
                 Locale.ENGLISH));

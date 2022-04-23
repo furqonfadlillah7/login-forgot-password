@@ -1,9 +1,9 @@
 package com.furqonfadlilah.loginforgotpassword.entity;
 
 import lombok.Data;
-import org.hibernate.annotations.Fetch;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -15,14 +15,14 @@ import java.util.Set;
 @Data
 @Entity
 @Table(name = "t_user", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
-public class User {
+public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     @NotEmpty(message = "{FIRST_NAME_REQUIRED}")
     private String firstName;
     @NotEmpty(message = "{LAST_NAME_REQUIRED}")
-    private  String lastName;
+    private String lastName;
     @Email
     @NotEmpty(message = "{EMAIL_REQUIRED}")
     private String email;
@@ -34,35 +34,34 @@ public class User {
     private Set<Role> roles;
 
     @Override
-    public Collection<? extends GrantedAuthority> getAuthorities(){
+    public Collection<? extends GrantedAuthority> getAuthorities() {
         Set<GrantedAuthority> authorities = new HashSet<>();
         roles.forEach(role -> authorities.add(new SimpleGrantedAuthority(role.getName())));
         return authorities;
     }
 
     @Override
-    public String getUsername(){
+    public String getUsername() {
         return email;
     }
 
     @Override
-    public boolean IsAccountNonExpired(){
-        return email;
-    }
-
-    @Override
-    public boolean isAccountNonLocked(){
+    public boolean isAccountNonExpired() {
         return true;
     }
 
     @Override
-    public boolean isCredentialsNonExpired(){
+    public boolean isAccountNonLocked() {
         return true;
     }
 
     @Override
-    public boolean isEnabled(){
+    public boolean isCredentialsNonExpired() {
         return true;
     }
 
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
 }

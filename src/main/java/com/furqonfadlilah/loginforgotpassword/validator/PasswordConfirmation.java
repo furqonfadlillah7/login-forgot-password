@@ -24,6 +24,6 @@ public @interface PasswordConfirmation {
     @Target(ElementType.TYPE)
     @Retention(RetentionPolicy.RUNTIME)
     @interface List{
-        PasswordConfirmation[] value()
+        PasswordConfirmation[] value();
     }
 }

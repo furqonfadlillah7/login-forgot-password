@@ -2,9 +2,9 @@ package com.furqonfadlilah.loginforgotpassword.controller;
 
 import com.furqonfadlilah.loginforgotpassword.entity.PasswordReset;
 import com.furqonfadlilah.loginforgotpassword.entity.PasswordResetToken;
+import com.furqonfadlilah.loginforgotpassword.entity.User;
 import com.furqonfadlilah.loginforgotpassword.service.framework.PasswordResetTokenService;
 import com.furqonfadlilah.loginforgotpassword.service.framework.UserService;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;

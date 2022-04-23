@@ -22,34 +22,40 @@ public class UserServiceImpl implements UserService {
     private final BCryptPasswordEncoder passwordEncoder;
     private final RoleRepository roleRepository;
 
+
     @Autowired
     public UserServiceImpl(UserRepository userRepository, BCryptPasswordEncoder bCryptPasswordEncoder,
-                           RoleRepository roleRepository){
+                           RoleRepository roleRepository) {
         this.userRepository = userRepository;
         this.passwordEncoder = bCryptPasswordEncoder;
         this.roleRepository = roleRepository;
     }
 
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException{
+    public User findByEmail(String email) {
+        return userRepository.findByEmail(email).orElse(null);
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = userRepository.findByEmail(username)
-                .orElseThrow(() -> new UsernameNotFoundException("Email Not Found!"));
+                .orElseThrow(() -> new UsernameNotFoundException("Email not found!"));
         new AccountStatusUserDetailsChecker().check(user);
         return user;
     }
 
     @Override
     @Modifying
-    public void updatePassword(User user){
+    public void updatePassword(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         userRepository.save(user);
     }
 
     @Override
-    public User save(User user){
+    public User save(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         Role role = roleRepository.findById(1L).orElse(null);
-        if(role != null){
+        if (role != null) {
             user.setRoles(new HashSet<>(Collections.singletonList(role)));
             return userRepository.save(user);
         }
