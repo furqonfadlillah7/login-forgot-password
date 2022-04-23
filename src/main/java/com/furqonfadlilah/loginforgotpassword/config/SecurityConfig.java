@@ -1,5 +1,6 @@
 package com.furqonfadlilah.loginforgotpassword.config;
 
+import com.furqonfadlilah.loginforgotpassword.service.framework.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
