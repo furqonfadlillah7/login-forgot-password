@@ -1,5 +1,6 @@
 package com.furqonfadlilah.loginforgotpassword.entity;
 
+import com.furqonfadlilah.loginforgotpassword.validator.PasswordConfirmation;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
