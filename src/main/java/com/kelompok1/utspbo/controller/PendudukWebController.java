@@ -22,7 +22,7 @@ public class PendudukWebController {
     @GetMapping(value = "/create")
     public String create1(Model model) {
         model.addAttribute("penduduk", new com.kelompok1.utspbo.entity.Penduduk());
-        return "formStudent";
+        return "formPenduduk";
     }
 
     @PostMapping(value = "/create")
