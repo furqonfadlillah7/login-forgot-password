@@ -4,7 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="160bd433-b84e-4b10-8bed-ed6d880c6a4b" name="Changes" comment="Add Img Screenshoot for README.md" />
+    <list default="true" id="160bd433-b84e-4b10-8bed-ed6d880c6a4b" name="Changes" comment="Add Img Screenshoot for README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/LoginForgotPasswordApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/controller/ForgotPasswordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/controller/ResetPasswordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/controller/SignupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/entity/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/entity/PasswordForgot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/entity/PasswordReset.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/entity/PasswordResetToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/repository/PasswordResetTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/service/framework/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/service/framework/PasswordResetTokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/service/framework/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/service/implementation/EmailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/service/implementation/PasswordResetTokenServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/service/implementation/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/validator/PasswordConfirmation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/furqonfadlilah/loginforgotpassword/validator/PasswordConfirmationValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/furqonfadlilah/loginforgotpassword/LoginForgotPasswordApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/LoginForgotPasswordApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/controller/ForgotPasswordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/controller/ResetPasswordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/controller/SignupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/entity/Mail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/entity/PasswordForgot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/entity/PasswordReset.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/entity/PasswordResetToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/repository/PasswordResetTokenRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/service/framework/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/service/framework/PasswordResetTokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/service/framework/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/service/implementation/EmailServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/service/implementation/PasswordResetTokenServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/service/implementation/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/validator/PasswordConfirmation$List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/validator/PasswordConfirmation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/furqonfadlilah/loginforgotpassword/validator/PasswordConfirmationValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/furqonfadlilah/loginforgotpassword/LoginForgotPasswordApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +70,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,12 +104,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../student" />
   </component>
   <component name="RunManager">
-    <configuration name="Login-forgot-pw-Run-Application" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.furqonfadlilah.loginforgotpassword.LoginForgotPasswordApplication" />
-      <module name="login-forgot-password" />
+    <configuration name="uts-pbo-run-application" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kelompok1.utspbo.UtsPboApplication" />
+      <module name="uts-pbo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.furqonfadlilah.login-forgot-password' is invalid and this project uses 'com.furqonfadlilah.loginforgotpassword' instead.
+* The original package name 'com.kelompok1.login-forgot-password' is invalid and this project uses 'com.kelompok1.utspbo' instead.
 
 # Getting Started
 
