@@ -23,7 +23,3 @@ Email Inbox:
 ![Login Page](img/login-1.jpg "Login Page")
 
 ![Login Page](img/login-2.jpg "Login Page")
-
-
-### Main Menu
-![Main Menu](img/main-menu.jpg "Main Menu")
