@@ -32,4 +32,3 @@ spring:
           timeout: 30000
     protocol: smtp
     test-connection: false
-
