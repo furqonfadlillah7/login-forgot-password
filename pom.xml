@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.furqonfadlilah</groupId>
-	<artifactId>login-forgot-password</artifactId>
+	<artifactId>utspbo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>login-forgot-password</name>
+	<name>utspbo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>

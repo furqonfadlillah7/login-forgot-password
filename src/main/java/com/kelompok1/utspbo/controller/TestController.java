@@ -1,4 +1,4 @@
-package id.ac.uin.student.student.controller;
+package com.kelompok1.utspbo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
