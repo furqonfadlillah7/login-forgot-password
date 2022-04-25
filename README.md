@@ -23,3 +23,9 @@ Email Inbox:
 ![Login Page](img/login-1.jpg "Login Page")
 
 ![Login Page](img/login-2.jpg "Login Page")
+
+
+### Menu Data Penduduk
+![Data Penduduk Page](img/penduduk1.jpg "Data Penduduk Page")
+
+![Data Penduduk Page](img/penduduk2.jpg "Data Penduduk Page")
