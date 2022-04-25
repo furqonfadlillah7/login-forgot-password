@@ -34,7 +34,7 @@ public class PendudukWebController {
     @GetMapping(value = "/edit/{id}")
     public String editForm(@PathVariable Long id, Model model) {
         model.addAttribute("penduduk", pendudukService.findById(id));
-        return "formStudent";
+        return "formPenduduk";
     }
 
     @GetMapping(value = "/hapus/{id}")
